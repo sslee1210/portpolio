@@ -4,7 +4,7 @@ const Skills = () => {
   const path = process.env.PUBLIC_URL;
 
   return (
-    <div className={skills.skills}>
+    <div className={skills.skills} id="Skills">
       <h1>Skills</h1>
       <div className={skills.text}>
         <div className={skills.head}>

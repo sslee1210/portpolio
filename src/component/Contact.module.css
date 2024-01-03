@@ -1,57 +1,66 @@
 .contact {
   display: flex;
-  margin-left: 150px;
+  padding-left: 10vw;
 }
 
 .contact h1 {
-  font-family: "Noto Sans KR", sans-serif;
-  padding-top: 120px;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 3rem;
-  box-shadow: 10px 0 5px grey;
-  margin: 0;
-  padding-right: 150px;
+  margin-bottom: 50px;
+  padding-top: 70px;
 }
 
-.contact .pages p {
-  padding-left: 300px;
-  font-family: "Noto Sans KR", sans-serif;
+.contact .all {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.contact .all .pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15vw;
+}
+
+.contact .all .pages p {
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
+  margin-bottom: 20px; /* 텍스트와 이미지 사이의 공간 확보 */
 }
 
-.contact .pages img {
-  width: 300px;
-  height: 240px;
-  margin: 0;
-  margin-left: 290px;
+.contact .all .pages img {
+  width: 15vw;
+  height: auto;
+  border-radius: 30px;
   transition: transform 0.3s;
-  border: 1.5px solid #000;
-  box-shadow: 10px 10px 5px grey;
-  border-radius: 15px;
+  box-shadow: 5.4px 3.8px 7.5px rgba(0, 0, 0, 0.028), 13.6px 9.6px 18.9px rgba(0, 0, 0, 0.04),
+    27.6px 19.5px 38.6px rgba(0, 0, 0, 0.05), 56.9px 40.2px 79.6px rgba(0, 0, 0, 0.062),
+    156px 110px 218px rgba(0, 0, 0, 0.09);
 }
 
-.contact .pages img:hover {
+.contact .all .pages img:hover {
   transform: translateY(-10px) translateX(10px);
 }
 
-/* 반응형 디자인 적용 */
 @media screen and (max-width: 768px) {
   .contact {
     flex-direction: column;
-    margin-left: 0;
+    align-items: center;
+    padding: 50px 10vw 0;
   }
 
   .contact h1 {
     font-size: 2rem;
-    padding-right: 50px;
+    margin-bottom: 30px;
   }
 
-  .contact .pages p {
-    padding-left: 20px;
+  .contact .all {
+    flex-direction: row;
+    padding-right: 12vw;
   }
 
-  .contact .pages img {
-    width: 100%;
-    height: auto;
-    margin-left: 0;
+  .contact .all .pages img {
+    border-radius: 100%;
   }
 }

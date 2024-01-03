@@ -4,8 +4,12 @@ import footer from './Footer.module.css';
 const Footer = () => {
   return (
     <div className={footer.footer}>
-      <p>Portpolio Lee sung soo</p>
-      <p>Email leesungsoo1@naver.com</p>
+      <p className={footer.name}>
+        <span>Portpolio</span> Lee sung soo
+      </p>
+      <p className={footer.email}>
+        <span>Email</span> leesungsoo1@naver.com
+      </p>
     </div>
   );
 };

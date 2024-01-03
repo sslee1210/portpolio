@@ -32,10 +32,10 @@ const Nav = () => {
           <a href="#Works">Works</a>
         </li>
         <li>
-          <a href="/">Skills</a>
+          <a href="#Skills">Skills</a>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <a href="#Contact">Contact</a>
         </li>
       </ul>
     </div>

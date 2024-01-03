@@ -31,10 +31,11 @@
   top: 50px;
   right: 10px;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 1px solid;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6.7px 7.7px -66px rgba(0, 0, 0, 0.096), 0px 18.7px 21.3px -66px rgba(0, 0, 0, 0.174),
+    0px 44.9px 51.3px -66px rgba(0, 0, 0, 0.262), 0px 149px 170px -66px rgba(0, 0, 0, 0.39);
   transition: all 0.3s ease;
 }
 

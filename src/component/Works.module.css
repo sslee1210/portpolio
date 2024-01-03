@@ -10,11 +10,11 @@
   border-radius: 40px;
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 70vw;
   margin: 0 auto;
-  box-shadow: 1.9px 1.4px 2.4px -8px rgba(0, 0, 0, 0.022), 4.8px 3.6px 6.2px -8px rgba(0, 0, 0, 0.031),
-    9.7px 7.3px 12.6px -8px rgba(0, 0, 0, 0.039), 20.1px 15px 25.9px -8px rgba(0, 0, 0, 0.048),
-    55px 41px 71px -8px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 4.8px -52px rgba(0, 0, 0, 0.049), 0px 0px 12.1px -52px rgba(0, 0, 0, 0.088),
+    0px 0px 24.6px -52px rgba(0, 0, 0, 0.127), 0px 0px 50.7px -52px rgba(0, 0, 0, 0.174),
+    0px 0px 139px -52px rgba(0, 0, 0, 0.24);
 }
 
 .project1 {
@@ -26,26 +26,27 @@
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 2.3vw;
   font-weight: 700;
-  letter-spacing: 1vw;
+  letter-spacing: 0.8vw;
   margin-bottom: 5%;
 }
 
 .project1 .title span {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 0.9vw;
-  letter-spacing: 1.2vw;
+  font-size: 0.8vw;
+  letter-spacing: 1.1vw;
   font-weight: 400;
 }
 
 .project1 .text {
   font-family: 'Noto Sans KR', sans-serif;
-  letter-spacing: 0.5vw;
-  font-size: 1.2vw;
+  letter-spacing: 0.4vw;
+  font-size: 1.1vw;
+  color: #5e5a5a;
 }
 
 .gifSize {
-  width: 15vw;
-  height: 59vh;
+  width: 12vw;
+  height: auto;
   margin: 6%;
   margin-right: 4%;
   border-radius: 1.5vw;
@@ -76,7 +77,7 @@
 
 img {
   width: 15vw;
-  height: 40vh;
+  height: auto;
   cursor: pointer;
 }
 
@@ -87,8 +88,9 @@ img {
 }
 
 .container2 img {
-  box-shadow: 0px 0px 6.5px -54px rgba(0, 0, 0, 0.069), 0px 0px 21.9px -54px rgba(0, 0, 0, 0.13),
-    0px 0px 98px -54px rgba(0, 0, 0, 0.22);
+  box-shadow: 3.7px 0.8px 4.6px -28px rgba(0, 0, 0, 0.028), 9.4px 1.9px 11.7px -28px rgba(0, 0, 0, 0.04),
+    19.1px 3.9px 23.9px -28px rgba(0, 0, 0, 0.05), 39.4px 8px 49.3px -28px rgba(0, 0, 0, 0.062),
+    108px 22px 135px -28px rgba(0, 0, 0, 0.09);
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
@@ -105,6 +107,7 @@ img {
 .container2 .read {
   font-weight: 400;
   font-size: 1rem;
+  color: #5e5a5a;
 }
 
 @media screen and (max-width: 768px) {
@@ -170,7 +173,7 @@ img {
 
   .container2 .read {
     padding-bottom: 50px;
-    color: #5e5a5a;
+    color: #423e3e;
   }
 
   .project2 {
