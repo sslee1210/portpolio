@@ -1,8 +1,9 @@
-import React from 'react';
-import main from './Main.module.css';
+import React from "react";
+import main from "./Main.module.css";
+
 const Main = () => {
   return (
-    <div className={main.header}>
+    <div id="main" className={main.header}>
       <h1>
         현재에 안주하지 않고
         <br />

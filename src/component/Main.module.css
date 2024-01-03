@@ -10,16 +10,17 @@
   padding-left: 10vw;
   padding-bottom: 1.3vw;
   margin: 0;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 400;
 }
 
 .header p {
+  color: #fff;
   padding: 10vw;
   padding-left: 10vw;
   padding-top: 0;
   font-size: 1.1vw;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   letter-spacing: 8px;
 }
 
@@ -29,7 +30,7 @@
 @media screen and (max-width: 768px) {
   .header h1 {
     font-size: 8vw;
-    padding-top: 60vw;
+    padding-top: 80vw;
     padding-left: 6vw;
     padding-bottom: 1vw;
     letter-spacing: 3px;

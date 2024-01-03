@@ -1,9 +1,10 @@
 .works h1 {
-  margin-left: 10%;
+  font-family: "Noto Sans KR", sans-serif;
   margin-top: 10%;
+  padding-top: 10vh;
   font-size: 3vw;
-  margin-bottom: 10%;
-  font-family: 'Noto Sans KR', sans-serif;
+  margin-left: 10%;
+  margin-bottom: 5%;
 }
 
 .container1 {
@@ -12,9 +13,25 @@
   justify-content: space-between;
   width: 70vw;
   margin: 0 auto;
-  box-shadow: 0px 0px 4.8px -52px rgba(0, 0, 0, 0.049), 0px 0px 12.1px -52px rgba(0, 0, 0, 0.088),
-    0px 0px 24.6px -52px rgba(0, 0, 0, 0.127), 0px 0px 50.7px -52px rgba(0, 0, 0, 0.174),
+  box-shadow: 0px 0px 4.8px -52px rgba(0, 0, 0, 0.049),
+    0px 0px 12.1px -52px rgba(0, 0, 0, 0.088),
+    0px 0px 24.6px -52px rgba(0, 0, 0, 0.127),
+    0px 0px 50.7px -52px rgba(0, 0, 0, 0.174),
     0px 0px 139px -52px rgba(0, 0, 0, 0.24);
+}
+
+.container1 .click {
+  font-family: "Noto Sans KR", sans-serif;
+  position: relative;
+  top: 12vw;
+  font-size: 1.1vw;
+  font-weight: bold;
+  left: 1.5vw;
+}
+
+.container1 .click img {
+  width: 2vw;
+  position: absolute;
 }
 
 .project1 {
@@ -23,7 +40,7 @@
 }
 
 .project1 .title {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 2.3vw;
   font-weight: 700;
   letter-spacing: 0.8vw;
@@ -31,29 +48,30 @@
 }
 
 .project1 .title span {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 0.8vw;
   letter-spacing: 1.1vw;
   font-weight: 400;
 }
 
 .project1 .text {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   letter-spacing: 0.4vw;
   font-size: 1.1vw;
   color: #5e5a5a;
 }
 
 .gifSize {
-  width: 12vw;
+  width: 10vw;
   height: auto;
-  margin: 6%;
+  margin: 2%;
   margin-right: 4%;
   border-radius: 1.5vw;
+  cursor: pointer;
 }
 
 .container2 {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   display: flex;
   justify-content: center;
   margin: 5%;
@@ -75,23 +93,25 @@
   margin-right: 60px;
 }
 
-img {
-  width: 15vw;
+.container2 img {
+  width: 13vw;
   height: auto;
   cursor: pointer;
 }
 
-.container2 p {
-  margin-bottom: 3px;
+.container2 .big {
+  margin-bottom: 0.6vw;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.1vw;
 }
 
 .container2 img {
-  box-shadow: 3.7px 0.8px 4.6px -28px rgba(0, 0, 0, 0.028), 9.4px 1.9px 11.7px -28px rgba(0, 0, 0, 0.04),
-    19.1px 3.9px 23.9px -28px rgba(0, 0, 0, 0.05), 39.4px 8px 49.3px -28px rgba(0, 0, 0, 0.062),
-    108px 22px 135px -28px rgba(0, 0, 0, 0.09);
-  border-radius: 10px;
+  box-shadow: 0px 0px 4.8px -52px rgba(0, 0, 0, 0.049),
+    0px 0px 12.1px -52px rgba(0, 0, 0, 0.088),
+    0px 0px 24.6px -52px rgba(0, 0, 0, 0.127),
+    0px 0px 50.7px -52px rgba(0, 0, 0, 0.174),
+    0px 0px 139px -52px rgba(0, 0, 0, 0.24);
+  border-radius: 30px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -99,23 +119,70 @@ img {
   transform: scale(1.03);
 }
 
-.container2 p span {
+.container2 .big span {
   font-weight: 400;
   font-size: 0.9rem;
+  padding-left: 10px;
 }
 
 .container2 .read {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9vw;
   color: #5e5a5a;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.click {
+  animation: bounce 1.2s infinite;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.imageContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+}
+
+.imageContainer:hover img {
+  filter: brightness(50%);
+}
+
+.view {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .works h1 {
-    font-size: 2.4rem;
+    font-size: 12vw;
     margin-left: 25px;
     margin-bottom: 100px;
     margin-top: 80px;
+  }
+
+  .container1 .click {
+    display: none;
   }
 
   .gifSize {
@@ -149,7 +216,7 @@ img {
     font-size: 3vw;
   }
 
-  img {
+  .container2 img {
     width: 50vw;
     height: auto;
     margin: 6%;
@@ -164,16 +231,20 @@ img {
 
   .container2 img {
     width: 70vw;
+    margin-top: 2vw;
+    margin-bottom: 1.3vw;
   }
 
-  .container2 p {
+  .container2 .big {
     margin-left: 30px;
     margin-top: 0;
+    font-size: 4vw;
   }
 
   .container2 .read {
-    padding-bottom: 50px;
     color: #423e3e;
+    padding-bottom: 5vw;
+    font-size: 3.2vw;
   }
 
   .project2 {
@@ -189,5 +260,9 @@ img {
   .project4 {
     margin-left: 10px;
     margin-right: 0;
+  }
+
+  .container2 .read {
+    padding-left: 6vw;
   }
 }

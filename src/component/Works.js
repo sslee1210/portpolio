@@ -1,5 +1,5 @@
-import React from 'react';
-import works from './Works.module.css';
+import React from "react";
+import works from "./Works.module.css";
 
 const Works = () => {
   const path = process.env.PUBLIC_URL;
@@ -14,31 +14,65 @@ const Works = () => {
           </p>
           <p className={works.text}>리액트를 이용하여 만든 홈페이지 입니다.</p>
         </div>
-        <img className={works.gifSize} src={path + '/videos/싱싱고.gif'} alt="프로젝트 GIF" />
+        <p className={`${works.click} click`}>
+          Click
+          <img src={path + "/images/allow.svg"} />
+        </p>
+        <img
+          className={works.gifSize}
+          src={path + "/videos/싱싱고.gif"}
+          alt="프로젝트 GIF"
+          onClick={() =>
+            window.open("https://github.com/sslee1210/singsinggo", "_blank")
+          }
+        />
       </div>
 
       <div className={works.container2}>
         <div className={works.project2}>
-          <p>
+          <p className={works.big}>
             부산 스토리텔링<span>팀프로젝트</span>
           </p>
-          <img src={path + '/images/busan.png'} alt="다른 프로젝트 이미지 설명" />
+          <div className={`${works.imageContainer} imageContainer`}>
+            <a
+              href="https://github.com/sslee1210/busan_storytelling"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={path + "/images/busan.png"} alt="부산스토리텔링" />
+            </a>
+          </div>
           <p className={works.read}>리액트를 이용하여 만든 홈페이지 입니다.</p>
         </div>
-
         <div className={works.project3}>
-          <p>
-            부산 스토리텔링<span>팀프로젝트</span>
+          <p className={works.big}>
+            포트폴리오<span>개인프로젝트</span>
           </p>
-          <img src={path + '/images/싱싱고.png'} alt="다른 프로젝트 이미지 설명" />
+          <div className={`${works.imageContainer} imageContainer`}>
+            <a
+              href="https://github.com/sslee1210/busan_storytelling"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={path + "/images/portpolio.png"} alt="포트폴리오" />
+            </a>
+          </div>
           <p className={works.read}>리액트를 이용하여 만든 홈페이지 입니다.</p>
         </div>
 
         <div className={works.project4}>
-          <p>
-            부산 스토리텔링<span>팀프로젝트</span>
+          <p className={works.big}>
+            미정<span>개인프로젝트</span>
           </p>
-          <img src={path + '/images/싱싱고.png'} alt="추가 프로젝트 이미지 설명" />
+          <div className={`${works.imageContainer} imageContainer`}>
+            <a
+              href="https://github.com/sslee1210/busan_storytelling"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={path + "/images/미정.png"} alt="개인프로젝트" />
+            </a>
+          </div>
           <p className={works.read}>리액트를 이용하여 만든 홈페이지 입니다.</p>
         </div>
       </div>

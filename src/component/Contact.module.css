@@ -4,7 +4,7 @@
 }
 
 .contact h1 {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 3rem;
   margin-bottom: 50px;
   padding-top: 70px;
@@ -24,7 +24,7 @@
 }
 
 .contact .all .pages p {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
   margin-bottom: 20px; /* 텍스트와 이미지 사이의 공간 확보 */
 }
@@ -34,8 +34,10 @@
   height: auto;
   border-radius: 30px;
   transition: transform 0.3s;
-  box-shadow: 5.4px 3.8px 7.5px rgba(0, 0, 0, 0.028), 13.6px 9.6px 18.9px rgba(0, 0, 0, 0.04),
-    27.6px 19.5px 38.6px rgba(0, 0, 0, 0.05), 56.9px 40.2px 79.6px rgba(0, 0, 0, 0.062),
+  box-shadow: 5.4px 3.8px 7.5px rgba(0, 0, 0, 0.028),
+    13.6px 9.6px 18.9px rgba(0, 0, 0, 0.04),
+    27.6px 19.5px 38.6px rgba(0, 0, 0, 0.05),
+    56.9px 40.2px 79.6px rgba(0, 0, 0, 0.062),
     156px 110px 218px rgba(0, 0, 0, 0.09);
 }
 
@@ -51,13 +53,13 @@
   }
 
   .contact h1 {
-    font-size: 2rem;
+    font-size: 12vw;
     margin-bottom: 30px;
   }
 
   .contact .all {
     flex-direction: row;
-    padding-right: 12vw;
+    padding-right: 14vw;
   }
 
   .contact .all .pages img {
