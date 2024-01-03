@@ -1,5 +1,6 @@
 .skills h1 {
   font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 10%;
   font-size: 3vw;
   margin-left: 10%;
   margin-bottom: 5%;
@@ -34,7 +35,8 @@
 }
 
 .skills .text .textbox {
-  margin-left: 25%;
+  margin-left: 26%;
+  display: flex;
 }
 
 .skills .text .textbox p {
@@ -43,11 +45,12 @@
   font-weight: 700;
   font-size: 1.5vw;
   letter-spacing: 0.5vw;
+  width: 370px;
 }
 
 .skills .text .textbox ul {
   padding-bottom: 5%;
-  margin-left: 32%;
+  padding-left: 12%;
 }
 
 .skills .text .textbox ul li {
@@ -55,19 +58,22 @@
   line-height: 3;
   padding: 1vw;
   letter-spacing: 0.2vw;
-  font-size: 0.9vw;
-  list-style: none;
+  font-size: 1rem;
+  color: #423e3e;
 }
 
 @media screen and (max-width: 768px) {
   .skills h1 {
-    font-size: 6vw;
-    margin-left: 5%;
-    margin-bottom: 3%;
+    font-size: 2.4rem;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    margin-top: 80px;
   }
 
   .skills .head {
-    padding-top: 3%;
+    padding-top: 30px;
+    padding-top: 100px;
+    height: 150px;
   }
 
   .skills .head h2 {
@@ -88,7 +94,8 @@
 
   .skills .text .textbox p {
     font-size: 4vw;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.4vw;
+    margin-bottom: 35px;
   }
 
   .skills .text .textbox ul {
@@ -96,7 +103,8 @@
   }
 
   .skills .text .textbox ul li {
-    line-height: 2;
+    letter-spacing: 0.3vw;
+    line-height: 2.3;
     list-style: none;
     font-size: 3vw;
   }

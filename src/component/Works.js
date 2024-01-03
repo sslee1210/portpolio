@@ -19,24 +19,27 @@ const Works = () => {
 
       <div className={works.container2}>
         <div className={works.project2}>
-          <img src={path + '/images/싱싱고.png'} alt="다른 프로젝트 이미지 설명" />
-          <p>다른 프로젝트명</p>
-          <p>팀프로젝트</p>
-          <p>리액트를 이용하여 만든 홈페이지 입니다.</p>
+          <p>
+            부산 스토리텔링<span>팀프로젝트</span>
+          </p>
+          <img src={path + '/images/busan.png'} alt="다른 프로젝트 이미지 설명" />
+          <p className={works.read}>리액트를 이용하여 만든 홈페이지 입니다.</p>
         </div>
 
         <div className={works.project3}>
+          <p>
+            부산 스토리텔링<span>팀프로젝트</span>
+          </p>
           <img src={path + '/images/싱싱고.png'} alt="다른 프로젝트 이미지 설명" />
-          <p>다른 프로젝트명</p>
-          <p>팀프로젝트</p>
-          <p>리액트를 이용하여 만든 홈페이지 입니다.</p>
+          <p className={works.read}>리액트를 이용하여 만든 홈페이지 입니다.</p>
         </div>
 
         <div className={works.project4}>
+          <p>
+            부산 스토리텔링<span>팀프로젝트</span>
+          </p>
           <img src={path + '/images/싱싱고.png'} alt="추가 프로젝트 이미지 설명" />
-          <p>추가 프로젝트명</p>
-          <p>팀프로젝트</p>
-          <p>리액트를 이용하여 만든 홈페이지 입니다.</p>
+          <p className={works.read}>리액트를 이용하여 만든 홈페이지 입니다.</p>
         </div>
       </div>
     </div>
