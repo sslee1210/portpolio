@@ -1,0 +1,57 @@
+.contact {
+  display: flex;
+  margin-left: 150px;
+}
+
+.contact h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  padding-top: 120px;
+  font-size: 3rem;
+  box-shadow: 10px 0 5px grey;
+  margin: 0;
+  padding-right: 150px;
+}
+
+.contact .pages p {
+  padding-left: 300px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+}
+
+.contact .pages img {
+  width: 300px;
+  height: 240px;
+  margin: 0;
+  margin-left: 290px;
+  transition: transform 0.3s;
+  border: 1.5px solid #000;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 15px;
+}
+
+.contact .pages img:hover {
+  transform: translateY(-10px) translateX(10px);
+}
+
+/* 반응형 디자인 적용 */
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .contact h1 {
+    font-size: 2rem;
+    padding-right: 50px;
+  }
+
+  .contact .pages p {
+    padding-left: 20px;
+  }
+
+  .contact .pages img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+}

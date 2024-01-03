@@ -1,0 +1,97 @@
+.skills h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 3vw;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.skills .text:not(:last-child) {
+  border-image: linear-gradient(to right, #3b3939dc, transparent);
+  border-bottom: 1.5px solid;
+  border-image-slice: 1;
+}
+
+.skills .head {
+  display: flex;
+  padding: 2%;
+  padding-top: 5%;
+}
+
+.skills .head h2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 2vw;
+  position: relative;
+  top: 23px;
+}
+
+.skills .icon {
+  margin-left: 20%;
+  margin-right: 0.5%;
+  margin-top: 4%;
+  width: 1vw;
+  height: 3vh;
+}
+
+.skills .text .textbox {
+  margin-left: 25%;
+}
+
+.skills .text .textbox p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  letter-spacing: 0.5vw;
+}
+
+.skills .text .textbox ul {
+  padding-bottom: 5%;
+  letter-spacing: 0.4vw;
+  margin-left: 40%;
+}
+
+.skills .text .textbox ul li {
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 3;
+  padding: 1vw;
+  font-size: 0.8vw;
+}
+
+@media screen and (max-width: 768px) {
+  .skills h1 {
+    font-size: 6vw;
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+
+  .skills .head {
+    padding-top: 3%;
+  }
+
+  .skills .head h2 {
+    font-size: 5vw;
+  }
+
+  .skills .icon {
+    margin-left: 10%;
+    width: 4vw;
+    height: 6vh;
+  }
+
+  .skills .text .textbox {
+    margin-left: 20%;
+  }
+
+  .skills .text .textbox p {
+    font-size: 4vw;
+    letter-spacing: 0.3vw;
+  }
+
+  .skills .text .textbox ul {
+    margin-left: 20%;
+  }
+
+  .skills .text .textbox ul li {
+    line-height: 2;
+    font-size: 3vw;
+  }
+}
