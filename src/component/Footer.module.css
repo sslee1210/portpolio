@@ -1,15 +1,17 @@
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between; /* 푸터 내 요소 간 공간 분배 */
   padding: 40px 5vw;
+  background: #343a40; /* 배경색 변경 */
+  color: #f8f9fa; /* 텍스트 색상 변경 */
 }
 
 .footer .name,
 .footer .email {
   display: flex;
   flex-direction: row;
-  margin: 5px;
-  margin-left: 4.8vw;
+  align-items: center; /* 요소 중앙 정렬 */
 }
 
 .footer .email {
@@ -18,15 +20,15 @@
 
 .footer .name span,
 .footer .email span {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
-  color: #ffc107;
+  color: #ffc107; /* 강조 텍스트 색상 */
   padding-right: 20px;
 }
 
 .footer .name,
 .footer .email {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 0.9rem;
 }
 
@@ -35,12 +37,14 @@
     padding: 20px 3vw;
     padding-bottom: 10px;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .footer .name,
   .footer .email {
-    align-items: flex-start;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .footer .name {

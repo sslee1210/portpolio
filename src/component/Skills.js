@@ -150,7 +150,7 @@ const Skills = () => {
         </div>
 
         <div className={skills.textbox}>
-          <p>Git, GITHUB</p>
+          <p>GIT, GITHUB</p>
           <SkillList
             items={[
               "Git Bash로 git 파일 백업 및 버전 관리",
