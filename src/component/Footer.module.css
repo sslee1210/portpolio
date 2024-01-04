@@ -1,17 +1,17 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; /* 푸터 내 요소 간 공간 분배 */
+  justify-content: space-between;
   padding: 40px 5vw;
-  background: #343a40; /* 배경색 변경 */
-  color: #f8f9fa; /* 텍스트 색상 변경 */
+  background: #f5faff;
+  color: #343a40;
 }
 
 .footer .name,
 .footer .email {
   display: flex;
   flex-direction: row;
-  align-items: center; /* 요소 중앙 정렬 */
+  align-items: center;
 }
 
 .footer .email {
@@ -22,7 +22,7 @@
 .footer .email span {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
-  color: #ffc107; /* 강조 텍스트 색상 */
+  color: #007bff; /* 강조 텍스트 색상 */
   padding-right: 20px;
 }
 

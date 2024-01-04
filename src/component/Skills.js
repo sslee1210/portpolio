@@ -33,12 +33,7 @@ const Skills = () => {
       <h1>Skills</h1>
       <div className={skills.text}>
         <div className={skills.head}>
-          <img
-            src={path + "/images/front-icon.png"}
-            alt="프론트 아이콘"
-            className={skills.icon}
-          />
-          <h2>Front</h2>
+          <h2 className={skills.front}>Front</h2>
         </div>
         <div className={skills.textbox}>
           <p>HTML5&CSS3</p>
@@ -84,12 +79,7 @@ const Skills = () => {
 
       <div className={skills.text}>
         <div className={skills.head}>
-          <img
-            src={path + "/images/back-icon.png"}
-            alt="백 아이콘"
-            className={skills.icon}
-          />
-          <h2>Back</h2>
+          <h2 className={skills.back}>Back</h2>
         </div>
         <div className={skills.textbox}>
           <p>Node.js</p>
@@ -110,12 +100,7 @@ const Skills = () => {
 
       <div className={skills.text}>
         <div className={skills.head}>
-          <img
-            src={path + "/images/data-icon.png"}
-            alt="데이터 아이콘"
-            className={skills.icon}
-          />
-          <h2>DATABASE&DEPLOY</h2>
+          <h2 className={skills.data}>DATABASE</h2>
         </div>
         <div className={skills.textbox}>
           <p>MongoDB</p>
@@ -130,12 +115,7 @@ const Skills = () => {
 
       <div className={skills.text}>
         <div className={skills.head}>
-          <img
-            src={path + "/images/tool-icon.png"}
-            alt="도구 아이콘"
-            className={skills.icon}
-          />
-          <h2>TOOL</h2>
+          <h2 className={skills.tool}>TOOL</h2>
         </div>
         <div className={skills.textbox}>
           <p>PHOTOSHOP, ILLUSTRATOR</p>

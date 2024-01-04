@@ -2,8 +2,6 @@ import React from "react";
 import contact from "./Contact.module.css";
 
 const Contact = () => {
-  const path = process.env.PUBLIC_URL;
-
   return (
     <div className={contact.contact} id="Contact">
       <h1>Contact</h1>

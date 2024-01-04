@@ -1,4 +1,5 @@
 import React from "react";
+import Typing from "react-typing-effect";
 import main from "./Main.module.css";
 
 const Main = () => {
@@ -14,7 +15,13 @@ const Main = () => {
         입니다
       </h1>
 
-      <p>꾸준한 노력과 책임감 있는 태도로 끊임없이 성장하는 사람</p>
+      <div className={main.typing}>
+        <Typing
+          speed={70}
+          loop
+          text="꾸준한 노력과 책임감 있는 태도로 끊임없이 성장하는 사람"
+        />
+      </div>
     </div>
   );
 };
