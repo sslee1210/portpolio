@@ -73,7 +73,6 @@
   position: fixed;
   right: 0;
   width: 100%;
-  background-color: #fff;
   box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
   transform: translateX(100%);
