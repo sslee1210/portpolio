@@ -129,6 +129,8 @@
     box-shadow: none;
     transform: none;
     padding: 0 40px;
+    width: 15%;
+    height: 5%;
   }
 
   .menu li {
