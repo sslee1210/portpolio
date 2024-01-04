@@ -1,5 +1,5 @@
 .works h1 {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   margin-top: 10%;
   padding-top: 10vh;
   font-size: 3vw;
@@ -9,19 +9,18 @@
 
 .container1 {
   border-radius: 40px;
+  cursor: pointer;
   display: flex;
-  justify-content: space-between;
+
   width: 70vw;
   margin: 0 auto;
-  box-shadow: 0px 0px 4.8px -52px rgba(0, 0, 0, 0.049),
-    0px 0px 12.1px -52px rgba(0, 0, 0, 0.088),
-    0px 0px 24.6px -52px rgba(0, 0, 0, 0.127),
-    0px 0px 50.7px -52px rgba(0, 0, 0, 0.174),
+  box-shadow: 0px 0px 4.8px -52px rgba(0, 0, 0, 0.049), 0px 0px 12.1px -52px rgba(0, 0, 0, 0.088),
+    0px 0px 24.6px -52px rgba(0, 0, 0, 0.127), 0px 0px 50.7px -52px rgba(0, 0, 0, 0.174),
     0px 0px 139px -52px rgba(0, 0, 0, 0.24);
 }
 
 .container1 .click {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   position: relative;
   top: 12vw;
   font-size: 1.1vw;
@@ -40,7 +39,7 @@
 }
 
 .project1 .title {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 2.3vw;
   font-weight: 700;
   letter-spacing: 0.8vw;
@@ -48,30 +47,39 @@
 }
 
 .project1 .title span {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 0.8vw;
   letter-spacing: 1.1vw;
   font-weight: 400;
 }
 
 .project1 .text {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: 0.4vw;
   font-size: 1.1vw;
   color: #5e5a5a;
 }
 
 .gifSize {
-  width: 10vw;
+  width: 12vw;
   height: auto;
   margin: 2%;
   margin-right: 4%;
   border-radius: 1.5vw;
-  cursor: pointer;
+  margin-left: 10vw;
+}
+
+.imageContainer1 {
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.imageContainer1:hover {
+  filter: brightness(65%);
 }
 
 .container2 {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   display: flex;
   justify-content: center;
   margin: 5%;
@@ -106,10 +114,8 @@
 }
 
 .container2 img {
-  box-shadow: 0px 0px 4.8px -52px rgba(0, 0, 0, 0.049),
-    0px 0px 12.1px -52px rgba(0, 0, 0, 0.088),
-    0px 0px 24.6px -52px rgba(0, 0, 0, 0.127),
-    0px 0px 50.7px -52px rgba(0, 0, 0, 0.174),
+  box-shadow: 0px 0px 4.8px -52px rgba(0, 0, 0, 0.049), 0px 0px 12.1px -52px rgba(0, 0, 0, 0.088),
+    0px 0px 24.6px -52px rgba(0, 0, 0, 0.127), 0px 0px 50.7px -52px rgba(0, 0, 0, 0.174),
     0px 0px 139px -52px rgba(0, 0, 0, 0.24);
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
@@ -133,34 +139,20 @@
   padding-bottom: 0;
 }
 
-@keyframes bounce {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-}
-
-.click {
-  animation: bounce 1.2s infinite;
-}
-
-.imageContainer {
+.imageContainer2 {
   position: relative;
   width: 100%;
 }
 
-.imageContainer img {
+.imageContainer2 img {
   display: block;
-  width: 100%;
+  width: 13vw;
   height: auto;
   transition: 0.5s ease;
 }
 
-.imageContainer:hover img {
-  filter: brightness(50%);
+.imageContainer2:hover img {
+  filter: brightness(65%);
 }
 
 .view {
@@ -188,8 +180,6 @@
   .gifSize {
     width: 60vw;
     height: auto;
-    margin: 6%;
-    margin: 0 auto;
     border-radius: 30px;
     margin-bottom: 20px;
   }

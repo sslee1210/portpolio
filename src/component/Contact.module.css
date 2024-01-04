@@ -1,48 +1,67 @@
 .contact {
   display: flex;
-  padding-left: 10vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15vw;
 }
 
 .contact h1 {
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 3rem;
-  margin-bottom: 50px;
-  padding-top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-right: 8vw;
+  font-size: 3vw;
+  margin-left: 10%;
+  margin-bottom: 5%;
 }
 
 .contact .all {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 100px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .contact .all .pages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 15vw;
+  margin-right: 2em;
+  width: 85%;
+  border-right: 1px;
+  padding-right: 1em;
+  line-height: 12em;
+  position: relative;
 }
 
-.contact .all .pages p {
-  font-family: "Noto Sans KR", sans-serif;
+.contact .all .pages:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+  width: 1px;
+  box-shadow: 2.4px 3.2px 3.8px rgba(0, 0, 0, 0.028), 5.9px 7.6px 9px rgba(0, 0, 0, 0.04),
+    11px 14.4px 17px rgba(0, 0, 0, 0.05), 19.7px 25.7px 30.4px rgba(0, 0, 0, 0.06),
+    36.8px 48px 56.8px rgba(0, 0, 0, 0.072), 88px 115px 136px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.contact .all .pages:last-child {
+  border-right: none;
+}
+
+.contact .all .pages:hover:after {
+  box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.4); /* 그림자의 색을 더 진하게 만듭니다. */
+}
+
+.contact .all .pages a {
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
-  margin-bottom: 20px; /* 텍스트와 이미지 사이의 공간 확보 */
+  font-size: 1.8vw;
+  text-decoration: none;
+  padding-left: 5vw;
 }
 
-.contact .all .pages img {
-  width: 15vw;
-  height: auto;
-  border-radius: 30px;
-  transition: transform 0.3s;
-  box-shadow: 5.4px 3.8px 7.5px rgba(0, 0, 0, 0.028),
-    13.6px 9.6px 18.9px rgba(0, 0, 0, 0.04),
-    27.6px 19.5px 38.6px rgba(0, 0, 0, 0.05),
-    56.9px 40.2px 79.6px rgba(0, 0, 0, 0.062),
-    156px 110px 218px rgba(0, 0, 0, 0.09);
-}
-
-.contact .all .pages img:hover {
-  transform: translateY(-10px) translateX(10px);
+.contact .all .pages .git {
+  padding-left: 7vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,15 +73,9 @@
 
   .contact h1 {
     font-size: 12vw;
-    margin-bottom: 30px;
   }
 
   .contact .all {
-    flex-direction: row;
-    padding-right: 14vw;
-  }
-
-  .contact .all .pages img {
-    border-radius: 100%;
+    flex-direction: column;
   }
 }
