@@ -19,11 +19,6 @@
     0px 0px 139px -52px rgba(0, 0, 0, 0.24);
 }
 
-.container1:hover {
-  transform: scale(1.03);
-  transition: all 0.3s ease-in-out;
-}
-
 .container1 .click {
   font-family: 'Noto Sans KR', sans-serif;
   position: relative;
@@ -75,7 +70,7 @@
 }
 
 .container1:hover .gifSize {
-  transform: translateY(-7vw);
+  transform: translateY(-4vw) scale(1.1); /* 1.2는 이미지의 크기를 20% 늘립니다. */
   transition: all 0.3s ease-in-out;
 }
 
@@ -91,26 +86,13 @@
   margin: 5%;
   margin-top: 70px;
 }
-
-.project2 {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.project3 {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.project4 {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
 .container2 img {
   width: 13vw;
   height: auto;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
 }
 
 .container2 .big {
@@ -139,26 +121,55 @@
 
 .container2 .read {
   font-weight: 400;
-  font-size: 0.9vw;
-  color: #5e5a5a;
+  font-size: 0.6vw;
+  color: #000;
   padding-left: 10px;
   padding-bottom: 0;
+  display: flex;
+}
+
+.container2 .read p {
+  background-color: rgb(30, 50, 97);
+  border: 1px solid #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.3vw;
+  margin-right: 0.7vw;
 }
 
 .imageContainer2 {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .imageContainer2 img {
+  z-index: 0;
   display: block;
   width: 13vw;
   height: auto;
-  transition: 0.5s ease;
+  border-radius: 0;
+  transition: 0.4s ease;
 }
 
 .imageContainer2:hover img {
-  filter: brightness(65%);
+  transform: scale(1.08);
+}
+
+.project2 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.project3 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.project4 {
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .view {
@@ -246,6 +257,7 @@
     color: #423e3e;
     padding-bottom: 5vw;
     font-size: 3.2vw;
+    padding-left: 6vw;
   }
 
   .project2 {
@@ -263,7 +275,8 @@
     margin-right: 0;
   }
 
-  .container2 .read {
-    padding-left: 6vw;
+  .container2 .read p {
+    margin-right: 1vw;
+    padding: 1vw;
   }
 }

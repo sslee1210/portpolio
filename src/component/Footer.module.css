@@ -20,15 +20,15 @@
 
 .footer .name span,
 .footer .email span {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
-  color: #007bff; /* 강조 텍스트 색상 */
+  color: rgba(2, 167, 229, 1);
   padding-right: 20px;
 }
 
 .footer .name,
 .footer .email {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 0.9rem;
 }
 

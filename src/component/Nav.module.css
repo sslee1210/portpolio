@@ -107,7 +107,7 @@
 }
 
 .menu li a:hover {
-  color: #817a7ab0;
+  color: rgba(2, 167, 229, 1);
 }
 
 @media (min-width: 768px) {

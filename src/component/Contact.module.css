@@ -8,7 +8,7 @@
 }
 
 .contact h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-right: 8vw;
   font-size: 3vw;
   margin-left: 10%;
@@ -27,50 +27,37 @@
 .contact .all .pages {
   margin-right: 2em;
   width: 85%;
-  border-right: 1px;
+  border-right: 1px solid #000;
   padding-right: 1em;
   line-height: 12em;
   position: relative;
   transition: transform 0.3s ease;
 }
 
-.contact .all .pages:hover {
-  transform: scale(1.05);
-}
-
-.contact .all .pages:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: -1px;
-  width: 1px;
-  box-shadow: 2.4px 3.2px 3.8px rgba(0, 0, 0, 0.428),
-    5.9px 7.6px 9px rgba(0, 0, 0, 0.04), 11px 14.4px 17px rgba(0, 0, 0, 0.05),
-    19.7px 25.7px 30.4px rgba(0, 0, 0, 0.06),
-    36.8px 48px 56.8px rgba(0, 0, 0, 0.072), 88px 115px 136px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-}
-
 .contact .all .pages:last-child {
   border-right: none;
 }
 
-.contact .all .pages:hover:after {
-  box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.3);
-}
-
 .contact .all .pages a {
-  font-family: "Noto Sans KR", sans-serif;
-  font-weight: 700;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
   font-size: 1.8vw;
   text-decoration: none;
-  padding-left: 5vw;
+  margin-left: 5vw;
   color: #000;
+  background: linear-gradient(to right, rgba(2, 167, 229, 1) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.3s ease-out;
+}
+
+.contact .all .pages:hover a {
+  background-position: left bottom;
+  color: #fff;
 }
 
 .contact .all .pages .git {
-  padding-left: 7vw;
+  margin-left: 7vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -93,7 +80,7 @@
   }
 
   .contact .all .pages {
-    width: 70px;
+    width: 25vw;
     height: 70px;
     margin: 10px;
     padding-right: 0;
@@ -104,12 +91,14 @@
   }
 
   .contact .all .pages a {
-    font-size: 1.8vw;
+    font-size: 3vw;
     line-height: 1;
     padding-left: 0;
+    margin-left: 0;
   }
 
   .contact .all .pages .git {
     padding-left: 0;
+    margin-left: 0;
   }
 }
