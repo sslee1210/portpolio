@@ -1,5 +1,5 @@
 .skills h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 10%;
   padding-top: 10vh;
   font-size: 3vw;
@@ -22,7 +22,7 @@
 }
 
 .skills .head h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 3vw;
   font-size: 2.8vw;
   margin-left: 15%;
@@ -32,7 +32,7 @@
 }
 
 .skills .head h2::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 0.8vw;
   height: 100%;
@@ -65,7 +65,7 @@
 }
 
 .skills .text .textbox p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 3%;
   font-weight: 700;
   font-size: 1.5vw;
@@ -78,7 +78,7 @@
 }
 
 .skills .text .textbox ul li {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   line-height: 3;
   padding: 0.7vw;
   letter-spacing: 0.2vw;
@@ -105,7 +105,7 @@
   }
 
   .skills .head h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     height: 30px; /* 높이를 고정값으로 설정 */
     font-size: 9vw; /* 폰트 크기를 고정값으로 설정 */
     margin-left: 5%; /* 위치를 조절 */
@@ -115,7 +115,7 @@
   }
 
   .skills .head h2::before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 3vw;
     height: 9vw; /* h2의 높이를 따르도록 설정 */
