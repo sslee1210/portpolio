@@ -66,7 +66,7 @@
   font-family: "Noto Sans KR", sans-serif;
   color: #5e5a5a;
   letter-spacing: 0.1vw;
-  font-size: 0.7vw;
+  font-size: 0.7yvw;
 }
 
 .gifSize {
@@ -206,14 +206,14 @@
   }
 
   .gifSize {
-    width: 60vw;
+    width: 50vw;
     height: auto;
     border-radius: 30px;
     margin-bottom: 20px;
     margin: 2%;
     margin-right: 4%;
-    margin-left: 10vw;
-    top: 45vw;
+    margin-left: 18vw;
+    top: 60vw;
   }
 
   .container1 {
@@ -223,7 +223,13 @@
   }
 
   .project1 {
+    font-size: 2.7vw;
     margin: 5%;
+  }
+
+  .read p {
+    font-size: 2.8vw;
+    padding: 1.5vw;
   }
 
   .project1 .title {
@@ -231,12 +237,12 @@
   }
 
   .project1 .title span {
-    font-size: 2vw;
+    font-size: 2.4vw;
     letter-spacing: 0.5vw;
   }
 
   .project1 .text {
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
 
   .container2 img {
@@ -288,6 +294,7 @@
 
   .container2 .read p {
     margin-right: 1vw;
-    padding: 1vw;
+    font-size: 2.8vw;
+    padding: 1.5vw;
   }
 }
