@@ -10,10 +10,7 @@ const Works = () => {
       <div
         className={`${works.container1} ${works.imageContainer1}`}
         onClick={() =>
-          window.open(
-            "https://github.com/sslee1210/React-TeamProject",
-            "_blank"
-          )
+          window.open("https://github.com/sslee1210/ReactTeamProject", "_blank")
         }
       >
         <div className={works.project1}>
@@ -33,7 +30,7 @@ const Works = () => {
           </div>
         </div>
         <a
-          href="https://github.com/sslee1210/React-TeamProject"
+          href="https://github.com/sslee1210/ReactTeamProject"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -52,7 +49,7 @@ const Works = () => {
           </p>
           <div className={`${works.imageContainer2} imageContainer`}>
             <a
-              href="https://github.com/sslee1210/JavaScript-TeamProject"
+              href="https://github.com/sslee1210/JavaScriptTeamProject"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -60,8 +57,8 @@ const Works = () => {
             </a>
           </div>
           <div className={works.read}>
-            <p>React</p>
             <p>Java Script</p>
+            <p>HTML5</p>
             <p>CSS3</p>
           </div>
         </div>
@@ -94,7 +91,7 @@ const Works = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={path + "/images/미정.png"} alt="개인프로젝트" />
+              <img src={path + "/images/포폴.png"} alt="포트폴리오" />
             </a>
           </div>
           <div className={works.read}>
