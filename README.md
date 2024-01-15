@@ -34,7 +34,9 @@
 ### WORKS
  - 그동안 배웠던 기술들을 활용하여 만들었던 프로젝트들로 구성되어있다.
  - 프로젝트별로 자세한 설명을 볼 수 있는 링크를 걸어두었고 마우스 호버 효과를 주어 눈에 잘 띌 수 있게 설계했다.
-
+```
+transform: scale(1.03);
+```
 
 ---
 
@@ -48,7 +50,7 @@ npm i react-intersection-observer
 
 ### CONTACT
 - 내 깃허브 페이지와 블로그로 이동할 수 있게 링크를 걸어두었다.
-- 글씨에 마우스를 올리면 배경색이 왼쪽에서 오른쪽으로 스르륵 생기고 글씨 색이 바뀐다.
+- 글씨에 마우스를 올리면 배경색이 왼쪽에서 오른쪽으로 스르륵 생기고 글씨 색이 바뀌는 효과를 주었다.
 ```
 .contact .all .pages a {
   color: #000;
@@ -65,66 +67,17 @@ npm i react-intersection-observer
 ```
 
 ### FOOTER
- - 
+ - 이름과 이메일을 남겨두었다.
 
 
 ## 디렉토리 구조
 ![포폴디렉토리](https://github.com/kimgs1234/portfolio/assets/142865411/b332ad7d-a46c-4bc4-bd0f-f8ea0d875f7a)
 
-## 문제 및 해결
-*상황: 헤더의 메뉴중 skill 과 project 페이지를 누르면 페이지로 넘어가면서 맨위로 넘어가져야 하는데 넘어가기 전 페이지 중간에서 넘어가면 <br>
-페이지의 중간부분으로 이동현상이 발생함
-
-*해결: 우선 스크롤이 맨위로 부드럽게 이동하는 컴포넌트를  
-``` react
-const ScrollToTop = () => {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }, [pathname]);
-
-  return null;
-};
-
-```
-와 같이 만들고 project컴포넌트와 skill컴포넌트에  scrolltoTop 컴포넌트를 넣었더니 페이지를 누르면 맨위로 가졌다.
-
-*상황: 헤더의 메뉴중 About페이지를 누르면 맨 처음 메인 페이지의 맨 밑 about쪽으로 넘어가야 하는데 <br>
-마찬가지로 이동하기전 높이값과 같은 위치로 스크롤이 됨
-
-*해결: 
-``` react
-const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.search === "?scrollTo=bottom") {
-      window.scrollTo({
-        top: document.documentElement.scrollHeight,
-        behavior: "smooth",
-      });
-    }
-  }, [location]); 
-
-```
-about부분이 있는 컴포넌트에 저 코드를 추가하고 링크부분에 다음과 같이 path를 수정하니 문제가 해결됨 <br>
-![링크 작성 방식](https://github.com/kimgs1234/portfolio/assets/142865411/b28f5ec3-9e17-4129-94ac-0a795326f823)
 
 ## 느낀점
-이번 국비를 수료하게 되면서 많은 것을 배웠다고 생각했지만 실제로 활용하는데에는 어려움이 많았고 <br>
-
-이것들을 실제로 활용 하려면 많이 써보고 따로 공부도 더 열심히 해야겠다는 생각이 들었다. <br>
-
-수료를 하고도 좋은 개발자가 되기 위해 공부 꾸준히 해야 겠다고 느꼈다.
+ - 부족했던 웹 개발 실력에 많은 도움이 되었다.
+ - 빠르게 변해가는 시대에 맞춰 평생 공부를 해야 할 것 같다.
+ - 
 
 ## 포트폴리오 바로가기
 <a href="https://kimgs1234.github.io/portfolio/" target="_blank">포트폴리오 바로가기</a>
