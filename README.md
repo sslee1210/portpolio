@@ -82,4 +82,4 @@ npm i react-intersection-observer
  - 빠르게 변해가는 시대에 맞춰 평생 공부를 해야 할 것 같다.
 
 ## 포트폴리오 바로가기
-### <a href="https://sslee1210.github.io/portpolio/" target="_blank">포트폴리오 바로가기</a>
+### <a href="https://sslee1210.github.io/portpolio/" target="_blank">성수 포트폴리오</a>
