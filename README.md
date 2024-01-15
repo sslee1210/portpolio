@@ -66,18 +66,20 @@ npm i react-intersection-observer
 }
 ```
 
+---
+
 ### FOOTER
  - 이름과 이메일을 남겨두었다.
 
+---
 
 ## 디렉토리 구조
-![포폴디렉토리](https://github.com/kimgs1234/portfolio/assets/142865411/b332ad7d-a46c-4bc4-bd0f-f8ea0d875f7a)
+![포트폴리오 디렉토리 구조](https://github.com/sslee1210/portpolio/assets/142865231/c37e4ad9-6905-4996-9820-ab470cbc71a3)
 
 
 ## 느낀점
  - 부족했던 웹 개발 실력에 많은 도움이 되었다.
  - 빠르게 변해가는 시대에 맞춰 평생 공부를 해야 할 것 같다.
- - 
 
 ## 포트폴리오 바로가기
 <a href="https://kimgs1234.github.io/portfolio/" target="_blank">포트폴리오 바로가기</a>
