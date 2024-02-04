@@ -79,6 +79,7 @@ const Works = () => {
             <p>React</p>
             <p>Java Script</p>
             <p>CSS3</p>
+            <p>API</p>
           </div>
         </div>
 
@@ -99,6 +100,7 @@ const Works = () => {
             <p>React</p>
             <p>Java Script</p>
             <p>CSS3</p>
+            <p>API</p>
           </div>
         </div>
       </div>
