@@ -64,39 +64,41 @@ const Works = () => {
         </div>
         <div className={works.project3}>
           <p className={works.big}>
-            포트폴리오<span>개인프로젝트</span>
+            Soo Playlist<span>개인프로젝트</span>
           </p>
           <div className={`${works.imageContainer2} imageContainer`}>
             <a
-              href="https://github.com/sslee1210/portpolio"
+              href="https://github.com/sslee1210/SooPlaylist"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={path + "/images/포폴.png"} alt="포트폴리오" />
+              <img src={path + "/images/sooplay.png"} alt="포트폴리오" />
             </a>
           </div>
           <div className={works.read}>
             <p>React</p>
             <p>Java Script</p>
+            <p>CSS3</p>
           </div>
         </div>
 
         <div className={works.project4}>
           <p className={works.big}>
-            미정<span>개인프로젝트</span>
+            Lee Map<span>개인프로젝트</span>
           </p>
           <div className={`${works.imageContainer2} imageContainer`}>
             <a
-              href="https://github.com/sslee1210/portpolio"
+              href="https://github.com/sslee1210/LeeMap"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={path + "/images/포폴.png"} alt="포트폴리오" />
+              <img src={path + "/images/cafe.png"} alt="포트폴리오" />
             </a>
           </div>
           <div className={works.read}>
             <p>React</p>
             <p>Java Script</p>
+            <p>CSS3</p>
           </div>
         </div>
       </div>

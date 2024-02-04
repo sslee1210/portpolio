@@ -19,11 +19,11 @@ const Contact = () => {
 
         <div className={contact.pages}>
           <a
-            href="https://blog.naver.com/sungmoong2"
+            href="https://github.com/sslee1210/portpolio"
             target="_blank"
             rel="noreferrer"
           >
-            블로그 보러가기
+            작업일지 보러가기
           </a>
         </div>
       </div>
