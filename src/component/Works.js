@@ -82,27 +82,6 @@ const Works = () => {
             <p>API</p>
           </div>
         </div>
-
-        <div className={works.project4}>
-          <p className={works.big}>
-            Lee Map<span>개인프로젝트</span>
-          </p>
-          <div className={`${works.imageContainer2} imageContainer`}>
-            <a
-              href="https://github.com/sslee1210/LeeMap"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={path + "/images/cafe.png"} alt="포트폴리오" />
-            </a>
-          </div>
-          <div className={works.read}>
-            <p>React</p>
-            <p>Java Script</p>
-            <p>CSS3</p>
-            <p>API</p>
-          </div>
-        </div>
       </div>
     </div>
   );
