@@ -42,7 +42,7 @@ transform: scale(1.03);
 
 ### SKILLS
  - 국비교육을 들으며 배운 기술들을 나열했다.
- - react-intersection-observer 라이브러리를 사용하여 스킬 리스트들이 화면 안에 들어오면 왼쪽에서 오른쪽으로 이동시키는 효과를 주었다.
+ - react-intersection-observer 라이브러리를 사용하여 스킬 리스트들이 화면 안에 들어오면 왼쪽에서 오른쪽으로 슬라이딩하는 효과를 주었다.
 ```
 npm i react-intersection-observer
 ```
