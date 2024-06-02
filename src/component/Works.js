@@ -23,7 +23,7 @@ const Works = () => {
                         <p>CSS3</p>
                     </div>
                 </div>
-                <a href="https://github.com/sslee1210/ReactTeamProject" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/sslee1210/Enoch" target="_blank" rel="noopener noreferrer">
                     <img className={works.gifSize} src={path + '/images/메인.png'} alt="main" />
                 </a>
             </div>
