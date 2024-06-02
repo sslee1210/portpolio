@@ -42,7 +42,7 @@ transform: scale(1.03);
 
 ### SKILLS
  - 국비교육을 들으며 배운 기술들을 나열했다.
- - react-intersection-observer 라이브러리를 사용하여 스킬 리스트들이 화면 안에 들어오면 왼쪽에서 오른쪽으로 이동시키는 효과를 주었다.
+ - react-intersection-observer 라이브러리를 사용하여 스킬 리스트들이 화면 안에 들어오면 왼쪽에서 오른쪽으로 슬라이딩하는 효과를 주었다.
 ```
 npm i react-intersection-observer
 ```
@@ -78,8 +78,9 @@ npm i react-intersection-observer
 
 
 ## 느낀점
- - 부족했던 웹 개발 실력에 많은 도움이 되었다.
- - 빠르게 변해가는 시대에 맞춰 평생 공부를 해야 할 것 같다.
+ - 그동안 내가 배웠던 기술 스택들을 정리하는데 도움이 많이 되었다.
+ - 웹 개발 자체가 너무 즐겁고 재밌다.
+ - 빠르게 변해가는 시대에 맞춰 평생 공부를 해야 할 것이다.
 
 ## 포트폴리오 바로가기
 ### <a href="https://sslee1210.github.io/portpolio/" target="_blank">성수 포트폴리오</a>
